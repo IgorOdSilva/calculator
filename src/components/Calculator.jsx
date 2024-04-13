@@ -10,7 +10,7 @@ export default function Calculator() {
 
     function inputNum(e){
         var input=e.target.value
-        if (num==0){
+        if (num===0){
             setNum(input);
         }else{
             setNum(num + input);
